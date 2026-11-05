@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Agent Readiness Audit"
+  short_description: "Score one agent workflow for readiness"
+  default_prompt: "Use $ai-agent-readiness-audit to score one workflow and recommend the next step."

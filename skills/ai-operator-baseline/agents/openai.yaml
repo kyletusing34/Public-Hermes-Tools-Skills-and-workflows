@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Operator Baseline"
+  short_description: "Scaffold guardrails into a real workspace"
+  default_prompt: "Use $ai-operator-baseline to scaffold operator controls into this workspace."
