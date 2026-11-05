@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 — 2026-11-05
+
+### Added
+- Skills: `preflight-gate`, `loop-cap-escalation`, `operator-copy-style`
+- Workflow: overnight batch guardrails
+- `templates/AGENTS.md.example`
+- `tools/render_catalog.py` + generated `skills/CATALOG.md`
+- CONTRIBUTING.md
+
 ## 0.2.0 — 2026-11-05
 
 First real public content drop. The GitHub repo existed empty since 2026-06-05.

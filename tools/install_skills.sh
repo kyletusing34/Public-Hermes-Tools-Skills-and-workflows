@@ -9,7 +9,7 @@ mkdir -p "$DEST"
 category_for() {
   case "$1" in
     ai-operator-baseline|ai-agent-readiness-audit) echo operator ;;
-    cron-operations|task-continuity|mixed-agent-handoff|file-first-memory) echo operations ;;
+    cron-operations|task-continuity|mixed-agent-handoff|file-first-memory|preflight-gate|loop-cap-escalation|operator-copy-style) echo operations ;;
     verified-registry|subagent-autotrigger|public-safety-audit) echo devops ;;
     github-pr-workflow) echo github ;;
     *) echo community ;;

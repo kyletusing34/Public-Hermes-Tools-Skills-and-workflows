@@ -1,0 +1,37 @@
+# AGENTS.md example (public-safe)
+
+Copy and adapt. Keep private hosts, keys, and client names out of public forks.
+
+## Mission
+
+Build and run internal AI ops with speed, care, and low context.
+
+## Priorities
+
+1. Safety of running services
+2. Data integrity
+3. Fast rollback
+4. Clean implementation
+5. Polish
+
+## Task continuity
+
+- Read the shared task ledger before non-trivial work
+- Update the same task with deltas only
+- Log start, blocked, done, and handoff
+
+## Routing
+
+- Local/cheap workers: bulk generation and long loops
+- Cloud coding agents: orchestration and delicate patches
+- Human: secrets, destructive changes, paid actions, strategy locks
+
+## Loop caps
+
+- Triage assistant: 2
+- Orchestrator: 5
+- Local worker: 5
+
+## Copy
+
+Never use em dashes in public or client-facing copy.

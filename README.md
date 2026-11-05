@@ -50,6 +50,11 @@ See `docs/INSTALL.md` for profile notes and Agent Nerve wiring.
 - `subagent-autotrigger` — keyword-triggered specialist spawn pattern
 - `public-safety-audit` — scan skills/workflows before publishing
 - `github-pr-workflow` — branch, verify, push, open PR without leaking tokens
+- `preflight-gate` — freshness-checked infra gates before pull/deploy/restart
+- `loop-cap-escalation` — bound retries and escalate with a packaged handoff
+- `operator-copy-style` — clean public/client copy without em-dash filler
+
+See `skills/CATALOG.md` for the generated table.
 
 ## Workflows included
 
@@ -57,6 +62,7 @@ See `docs/INSTALL.md` for profile notes and Agent Nerve wiring.
 - `workflows/cron-health-review.md`
 - `workflows/cross-agent-handoff.md`
 - `workflows/skill-review-cycle.md`
+- `workflows/overnight-batch-guardrails.md`
 
 ## Pair with Agent Nerve
 
